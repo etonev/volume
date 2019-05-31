@@ -18,7 +18,7 @@
             "blendingMode" : "normal",
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.46153846153846156,
+            "centerAnchorY" : 0.43478260869565216,
             "children" : [
 
             ],
@@ -72,7 +72,7 @@
             "replicaInfo" : null,
             "right" : 0,
             "rotation" : 0,
-            "top" : -106,
+            "top" : -116,
             "visible" : true,
             "width" : 375,
             "widthType" : 0
@@ -80,9 +80,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 139,
+            "bottom" : 119,
             "centerAnchorX" : 0.5013333333333333,
-            "centerAnchorY" : 0.75230769230769234,
+            "centerAnchorY" : 0.78860569715142426,
             "children" : [
 
             ],
@@ -152,9 +152,9 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 203,
+            "bottom" : 185,
             "centerAnchorX" : 0.5013333333333333,
-            "centerAnchorY" : 0.62307692307692308,
+            "centerAnchorY" : 0.65967016491754127,
             "children" : [
 
             ],
@@ -263,7 +263,6 @@
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
             "navigationTransitionDirection" : "left",
             "opacity" : 1,
-            "originalFilename" : "TOPBAR.png",
             "originalid" : null,
             "parentid" : "x8ih1y66s",
             "previewSettings" : null,
@@ -286,7 +285,7 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "deviceType" : "framer\/FramerAppleIPhone8",
         "exportOptions" : [
 
         ],
@@ -304,7 +303,7 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 650,
+        "height" : 667,
         "heightType" : 0,
         "id" : "x8ih1y66s",
         "intrinsicHeight" : null,
