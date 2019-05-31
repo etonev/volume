@@ -1,0 +1,20 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@framer/framer.device-hand-iphone-1": "^1.0.0",
+		"@framer/framer.device-skin-apple-iphone-xs-spacegrey": "^1.0.0",
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "89c6e8c8-c67a-4d0e-961b-d849de8c098f"
+	},
+	"author": "Eugene Tonev",
+	"dependencies": {
+		"@framer/jsargent.lucky-lottie": "^1.0.0"
+	}
+}
