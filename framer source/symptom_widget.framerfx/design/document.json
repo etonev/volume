@@ -162,7 +162,7 @@
             "codeComponentIdentifier" : "@framer\/jsargent.lucky-lottie\/.\/LuckyLottie.tsx_LuckyLottie",
             "codeComponentProps" : {
               "lottieType" : "percent",
-              "lottieUrl" : "https:\/\/raw.githubusercontent.com\/etonev\/volume\/master\/data.json",
+              "lottieUrl" : "https:\/\/raw.githubusercontent.com\/etonev\/volume\/master\/json-02\/data.json",
               "percent" : 38,
               "play" : "▶"
             },
