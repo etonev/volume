@@ -163,7 +163,7 @@
             "codeComponentProps" : {
               "lottieType" : "percent",
               "lottieUrl" : "https:\/\/raw.githubusercontent.com\/etonev\/volume\/master\/json-03\/data.json",
-              "percent" : 100,
+              "percent" : 0,
               "play" : "▶"
             },
             "codeOverrideEnabled" : true,
