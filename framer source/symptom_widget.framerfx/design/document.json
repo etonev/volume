@@ -31,18 +31,34 @@
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : true,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
             "fillImage" : "fGSH2ff67tVunkUBfOctSzHThO4.jpg",
             "fillImagePixelHeight" : 2436,
             "fillImagePixelWidth" : 1125,
             "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
             "fillType" : "image",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 812,
             "heightType" : 0,
             "id" : "WuDPIkRO9",
@@ -111,13 +127,6 @@
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
             "fillImage" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
@@ -128,7 +137,7 @@
             "id" : "WgDyKEtu9",
             "intrinsicHeight" : 44,
             "intrinsicWidth" : 295,
-            "left" : 38,
+            "left" : 44,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -142,11 +151,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 37,
+            "right" : 43,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
-            "width" : 300,
+            "width" : 288,
             "widthType" : 0
           },
           {
@@ -177,13 +186,6 @@
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
             "fillImage" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
@@ -235,18 +237,34 @@
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : true,
-            "fillGradient" : {
-              "__class" : "LinearGradient",
-              "alpha" : 1,
-              "angle" : 0,
-              "end" : "rgba(0,0,0,0)",
-              "start" : "black"
-            },
             "fillImage" : "sQHXRSjDe6rohbXC7amlLSYmvHY.png",
             "fillImagePixelHeight" : 267,
             "fillImagePixelWidth" : 1125,
             "fillImageResize" : "fill",
+            "fillLinearGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 180,
+              "stops" : [
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 0,
+                  "value" : "rgba(0,0,0,0)"
+                },
+                {
+                  "__class" : "GradientColorStop",
+                  "position" : 1,
+                  "value" : "black"
+                }
+              ]
+            },
             "fillType" : "image",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 89,
             "heightType" : 0,
             "id" : "neOWS0NGV",
@@ -291,18 +309,34 @@
         ],
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : true,
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
         "fillImage" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
+        "fillLinearGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 180,
+          "stops" : [
+            {
+              "__class" : "GradientColorStop",
+              "position" : 0,
+              "value" : "rgba(0,0,0,0)"
+            },
+            {
+              "__class" : "GradientColorStop",
+              "position" : 1,
+              "value" : "black"
+            }
+          ]
+        },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 667,
         "heightType" : 0,
         "id" : "x8ih1y66s",
@@ -348,6 +382,12 @@
         "widthType" : 0
       }
     ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
     "id" : "QoSVdyTF0",
     "name" : null,
     "originalid" : null,
@@ -360,5 +400,5 @@
     ],
     "visible" : false
   },
-  "version" : 50
+  "version" : 54
 }

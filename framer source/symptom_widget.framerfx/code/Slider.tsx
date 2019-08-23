@@ -92,11 +92,17 @@ export class Slider extends React.Component<Partial<Props>, State> {
     }
 
     onMove = (event: Point) => {
+        const { onValueChange } = this.props
         const value = this.pointToValue(event.x)
+        console.log("On move" + value)
         this.setState({ value })
+        if (onValueChange) {
+            onValueChange(value)
+        }
     }
 
     onDragSessionEnd = (_: FramerEvent) => {
+        console.log("DRAG ended")
         const { onValueChange } = this.props
         let value = Math.round(this.state.value)
         this.setState({ value })

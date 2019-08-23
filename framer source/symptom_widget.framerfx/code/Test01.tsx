@@ -12,9 +12,11 @@ export const Image: Override = props => {
 
 export const Slider: Override = props => {
     return {
-        value: data.percent,
         onValueChange: (value: number) => {
-            data.percent = value
+            console.log("DATA: " + value)
+
+            let res = value * 50
+            data.percent = res
         },
     }
 }
