@@ -107,7 +107,7 @@
             "codeComponentProps" : {
               "constrained" : false,
               "knob" : "#32C0D4",
-              "knobSize" : 24,
+              "knobSize" : 32,
               "max" : 2,
               "min" : 0,
               "shadow" : "rgba(0,0,0,0.1)",
