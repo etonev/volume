@@ -1,5 +1,12 @@
 import * as React from "react"
-import { Frame, Point, Draggable, PropertyControls, ControlType } from "framer"
+import {
+    Frame,
+    Point,
+    Draggable,
+    PropertyControls,
+    ControlType,
+    FramerEvent,
+} from "framer"
 
 export interface Props {
     value: number
@@ -85,23 +92,13 @@ export class Slider extends React.Component<Partial<Props>, State> {
     }
 
     onMove = (event: Point) => {
-        const { onValueChange } = this.props
         const value = this.pointToValue(event.x)
         this.setState({ value })
-
-        if (onValueChange) {
-            onValueChange(value)
-        }
     }
 
-    onClick = event => {
-        const { knobSize, onValueChange, max, min } = this.props
-        let value = this.pointToValue(event.point.x - knobSize / 2)
-        if (value < min) {
-            value = min
-        } else if (value > max) {
-            value = max
-        }
+    onDragSessionEnd = (_: FramerEvent) => {
+        const { onValueChange } = this.props
+        let value = Math.round(this.state.value)
         this.setState({ value })
         if (onValueChange) {
             onValueChange(value)
@@ -206,7 +203,6 @@ export class Slider extends React.Component<Partial<Props>, State> {
                     top={(height - trackHeight) / 2}
                     background={track}
                     radius={50}
-                    onClick={this.onClick}
                     overflow={"hidden"}
                 >
                     <Frame
@@ -225,6 +221,8 @@ export class Slider extends React.Component<Partial<Props>, State> {
                     bounce={false}
                     overdrag={false}
                     onMove={this.onMove}
+                    onDragSessionEnd={this.onDragSessionEnd}
+                    momentum={false}
                     horizontal={true}
                     vertical={false}
                     left={left}
