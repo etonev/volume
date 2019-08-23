@@ -12,10 +12,25 @@
   resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone-xs-spacegrey/-/@framer/framer.device-skin-apple-iphone-xs-spacegrey-1.0.0.tgz#d9f524f5a6a4afe8cb413c00f3f16fe4d52ee09e"
   integrity sha512-BWmGnCvnPmYel3ytJ1eiNxugHTj3e7eiih8L1b3RZtB4ZjgF6HiCMp+nsB0wAOJrMS2sA+fEYMDzxqybX9Dukg==
 
+"@framer/framer.device-skin-apple-iphone8-gold@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone8-gold/-/@framer/framer.device-skin-apple-iphone8-gold-1.0.0.tgz#698d4b10e247e66d849e0ba5df0c457dc14cea0b"
+  integrity sha512-eDYjEMGojWih8xXjilgJwAQifNRsiX1TWZvkMnSUeT1ZbmPSQCar9XJFGTaSBBh7Kv2RJvHPlqFr0gAGPIiAjA==
+
 "@framer/framer.device-skin-apple-iphone8-silver@^1.0.0":
   version "1.0.0"
   resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone8-silver/-/@framer/framer.device-skin-apple-iphone8-silver-1.0.0.tgz#f120cfe6d8cf96ead1f656ab7eeddb23d0644ac1"
   integrity sha512-EWPkH8T/pHrt84uOGRXGFhsfymXI9g9o55PbHcuPEW6c3kyUZULfFcaMdvd+InFIyS46oREybbxHzk7E3o859w==
+
+"@framer/framer.device-skin-apple-iphone8-space-gray@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/framer.device-skin-apple-iphone8-space-gray/-/@framer/framer.device-skin-apple-iphone8-space-gray-1.0.0.tgz#336e100533d33e4fc7cd10507ccf64a8bc96637a"
+  integrity sha512-WNnCJXI6Pgpep5tK2SQ5NVhPf7fBZIMvLWdYTF0nS0mG0QfWKgllT5YN3LGwKqOYI7mnzSlOQR1PPFFk8gOVVA==
+
+"@framer/framer.device-skin-samsung-galaxy-s9-burgundyred@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.framer.com/@framer/framer.device-skin-samsung-galaxy-s9-burgundyred/-/@framer/framer.device-skin-samsung-galaxy-s9-burgundyred-1.0.0.tgz#b47ffa8316a2367504ce1b47956e811a54d213a5"
+  integrity sha512-KUbgSlQE/9UsYFByJXXMfCNr7kvtWvP39ClqLUWVjx3kFgEQQ4Dn5djp5lfTeM28cZNzDh9JASzlnP/qYwiQRQ==
 
 "@framer/jsargent.lucky-lottie@^1.0.0":
   version "1.0.0"
